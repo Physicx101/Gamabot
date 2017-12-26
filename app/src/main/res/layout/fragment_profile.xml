@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/about_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:id="@+id/aboutAct_scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!--ABOUT APP REDESIGN-->
+            <android.support.v7.widget.CardView
+                android:id="@+id/about_app_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:paddingBottom="8dp"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="160dp"
+                            android:layout_height="160dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="8dp"
+                            android:padding="16dp"
+                            android:src="@drawable/bogi"/>
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/about_app_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:padding="4dp"
+                        android:text="Ahmad Fauzi Wibowo"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="24sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/about_app_light_description"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="16dp"
+                        android:padding="4dp"
+                        android:text="ahmadfauziw97@gmail.com"
+                        android:textColor="@color/primary_text"
+                        android:textSize="14sp"/>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+
+
+
+
+
+
+                <RelativeLayout
+                    android:id="@+id/infoTutor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:padding="@dimen/activity_horizontal_margin">
+
+                    <ImageView
+                        android:id="@+id/icon_infoTutor"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:layout_centerVertical="true"
+                        android:tint="@color/colorPrimary"
+                        android:src="@drawable/account"
+                        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                        tools:ignore="ContentDescription,UnusedAttribute"/>
+
+                    <TextView
+                        android:id="@+id/TV_infoTutr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/activity_horizontal_margin"
+                        android:layout_toEndOf="@id/icon_infoTutor"
+                        android:paddingBottom="4dp"
+                        android:paddingTop="4dp"
+                        android:textSize="16sp"
+                        android:textColor="@color/colorPrimary"
+                        android:text="Profil Saya"/>
+
+                </RelativeLayout>
+
+
+
+
+
+                <RelativeLayout
+                    android:id="@+id/riwayatTes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:padding="@dimen/activity_horizontal_margin">
+
+                    <ImageView
+                        android:id="@+id/icon_tes"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_file"
+                        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                        tools:ignore="ContentDescription,UnusedAttribute"/>
+
+                    <TextView
+                        android:id="@+id/TV_riwayat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/activity_horizontal_margin"
+                        android:layout_toEndOf="@id/icon_tes"
+                        android:paddingBottom="4dp"
+                        android:paddingTop="4dp"
+                        android:text="Post Saya"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="16sp"/>
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/tutorial"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:padding="@dimen/activity_horizontal_margin">
+
+                    <ImageView
+                        android:id="@+id/icon_help"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_exit"
+                        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                        android:tint="@color/colorPrimary"
+                        tools:ignore="ContentDescription,UnusedAttribute"/>
+
+                    <TextView
+                        android:id="@+id/TV_tutorial"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/activity_horizontal_margin"
+                        android:layout_toEndOf="@id/icon_help"
+                        android:paddingBottom="4dp"
+                        android:paddingTop="4dp"
+                        android:text="Keluar"
+                        android:textSize="16sp"
+                        android:textColor="@color/colorPrimary"/>
+
+                </RelativeLayout>
+
+
+
+            </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

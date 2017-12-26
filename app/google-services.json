@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "1085566779344",
+    "firebase_url": "https://gamabot-ebcc0.firebaseio.com",
+    "project_id": "gamabot-ebcc0",
+    "storage_bucket": "gamabot-ebcc0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085566779344:android:1383a4155cebcc40",
+        "android_client_info": {
+          "package_name": "com.example.prabowo.gamabot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1085566779344-v84b6mg7sbnfd81t4h9mqmtreoe9594v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.prabowo.gamabot",
+            "certificate_hash": "1cca6cada9d1ac7ad8d464c8681f8628a7e41d3a"
+          }
+        },
+        {
+          "client_id": "1085566779344-r5942m372qskqio6vo2fop9r4c0oevti.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.prabowo.gamabot",
+            "certificate_hash": "370c23d8b04c50a7dd1a2ee26a15d7254db4928a"
+          }
+        },
+        {
+          "client_id": "1085566779344-44b58lu15iaj970p9rhi6nbe1i3kmtbh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAX34hioN3ne92q6KhiCqhkLrZtKZU1MGU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1085566779344-44b58lu15iaj970p9rhi6nbe1i3kmtbh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085566779344:android:1709b81cf5dce0c0",
+        "android_client_info": {
+          "package_name": "com.example.fauziw97.gamabot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1085566779344-bnir33rcgnq9elfvui4g5p1vp9dg6nqs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fauziw97.gamabot",
+            "certificate_hash": "1cca6cada9d1ac7ad8d464c8681f8628a7e41d3a"
+          }
+        },
+        {
+          "client_id": "1085566779344-44b58lu15iaj970p9rhi6nbe1i3kmtbh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAX34hioN3ne92q6KhiCqhkLrZtKZU1MGU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1085566779344-44b58lu15iaj970p9rhi6nbe1i3kmtbh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,20 @@
+<tabs>
+    <tab
+        id="@+id/tab_home"
+        icon="@drawable/home"
+        title="Home"
+        activeColor="#E37A38"
+        barColorWhenSelected="#FFFF"/>
+    <tab
+        id="@+id/tab_forum"
+        icon="@drawable/forum"
+        title="Forum"
+        activeColor="#E37A38"
+        barColorWhenSelected="#FFFF"/>
+    <tab
+        id="@+id/tab_account"
+        icon="@drawable/account"
+        title="Account"
+        activeColor="#E37A38"
+        barColorWhenSelected="#FFFF"/>
+</tabs>
